@@ -1,0 +1,20 @@
+CREATE TABLE pets (id INTEGER PRIMARY KEY, Name TEXT, Color TEXT, Quantity INTEGER, Price REAL);
+INSERT INTO pets VALUES (1, 'Dogs', 'Red', 2, 199.00);
+INSERT INTO pets VALUES (2, 'Lizards', 'Green', 4, 130.00);
+INSERT INTO pets VALUES (3, 'Snakes', 'Dark Green', 6, 35.00);
+INSERT INTO pets VALUES (4, 'Cats', 'Orange', 1, 100.00);
+INSERT INTO pets VALUES (5, 'Tarantulas', 'Black', 8, 25.00);
+INSERT INTO pets VALUES (6, 'Mice', 'Gray', 10, 7.50);
+INSERT INTO pets VALUES (7, 'Foxes', 'Purple', 3, 350.00);
+INSERT INTO pets VALUES (8, 'Hamsters', 'White', 9, 20.00);
+INSERT INTO pets VALUES (9, 'Chickens', 'Brown', 5, 10.00);
+INSERT INTO pets VALUES (10, 'Turtles', 'Yellow', 7, 400.00);
+INSERT INTO pets VALUES (11, 'Iguanas', 'Blue', 8, 450.00);
+INSERT INTO pets VALUES (12, "Venus Flytraps", 'Pink', 11, 1000.00);
+INSERT INTO pets VALUES (13, 'Birds', 'Maroon', 30, 50.00);
+INSERT INTO pets VALUES (14, 'Squirrels', 'Violet', 15, 85.00);
+INSERT INTO pets VALUES (15, 'Rabbits', 'Turquoise', 17, 500.00);
+
+SELECT * FROM pets ORDER BY price;
+
+SELECT color FROM pets ORDER BY price;
